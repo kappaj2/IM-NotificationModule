@@ -59,6 +59,17 @@ spring:
                     data: target/elasticsearch/data
     mail:
         host: localhost
+        port: 3025
+        username: abc@gmail.com
+        password: test
+        protocol: smtp
+        default-encoding: UTF-8
+        properties:
+            mail:
+                smtp:
+                    auth: true
+                    starttls:
+                        enable: true
     messages:
         basename: i18n/messages
     mvc:
